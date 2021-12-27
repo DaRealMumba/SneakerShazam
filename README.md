@@ -5,8 +5,13 @@
 
 ![detectioon](data/images/input/sneaker_132032976_342.jpg)
 
-
+Затем по координатам bounding box'а мы обрезаем фотографию и в таком виде передаем второй модели.
 ![cropped](data/images/output/photo_132032976_342.jpg)
 
-Затем координаты bounding box'а передаются второй модели.
+
 Вторая модель (ResNet101V2) нужна для классификации модели кроссовка. ResNet101V2 была обучена на 4000 фотографии 20 классов.
+
+Проект был выполнен за 10 дней при участии:
+https://github.com/jabulani9955
+https://github.com/YuliaGavrisheva
+https://github.com/Damotsoff
